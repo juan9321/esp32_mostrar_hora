@@ -6,8 +6,8 @@
 
 
 /*-------- Configurações de Wi-fi----------- */
-const char* ssid = "NET_2G2EA0F1"; /* Substitua pelo nome da rede */
-const char* password = "4F2EA0F1";    /* Substitua pela senha */
+const char* ssid = "aaaaa"; /* Substitua pelo nome da rede */
+const char* password = "aaaa";    /* Substitua pela senha */
 /* -------- Configurações de relógio on-line----------- */
 WiFiUDP udp;
 NTPClient ntp(udp, "a.st1.ntp.br",  -10800, -60000);/* Cria um objeto "NTP" com as configurações.utilizada no Brasil */
